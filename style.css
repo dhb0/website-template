@@ -1,0 +1,626 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #ebeef4;
+  font-size: 16px;
+}
+
+header a {
+  color: #666666;
+}
+
+header a:hover {
+  color: #f86759;
+}
+
+header .col-md-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0 15px 0;
+}
+
+header .col-md-12 .fa-phone {
+  padding-right: 10px;
+}
+
+header .col-md-12 .fa-paper-plane-o {
+  padding-right: 10px;
+}
+
+header .col-md-12 span {
+  padding: 0 15px;
+}
+
+header .col-md-12 .social-networking i {
+  padding: 5px;
+  color: #f86759;
+}
+
+header .col-md-12 .social-networking .fa-facebook:hover {
+  color: #4267B2;
+}
+
+header .col-md-12 .social-networking .fa-linkedin:hover {
+  color: #0072b1;
+}
+
+header .col-md-12 .social-networking .fa-twitter:hover {
+  color: #38A1F3;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+nav {
+  color: #6f6f6f;
+  font-size: 14px;
+  font-weight: 900;
+  -webkit-box-shadow: 0 1px 1px -1px gray;
+          box-shadow: 0 1px 1px -1px gray;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+nav ul li > a {
+  padding: 0 5px 15px 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav ul li > a:hover {
+  color: #f86759 !important;
+  border-bottom: 1px solid #f86759;
+}
+
+nav #search {
+  margin-left: 10px;
+}
+
+nav #search i {
+  margin-left: 15px;
+}
+
+.carousel-item img {
+  height: 90%;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20vh;
+  color: #18191a;
+}
+
+.carousel-caption button {
+  color: #18191a;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 25px;
+  border-color: #f86759;
+  -webkit-transition: 0;
+  transition: 0;
+  position: relative;
+}
+
+.carousel-caption button i {
+  color: #18191a;
+  margin-left: 3px;
+}
+
+.carousel-caption .button-text, .carousel-caption i {
+  position: relative;
+  z-index: 10;
+  color: black;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.carousel-caption .button-background {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #f86759;
+  width: 0;
+}
+
+.carousel-caption button:hover {
+  color: white;
+  border-color: #f86759;
+}
+
+.carousel-caption button:hover i {
+  color: white;
+}
+
+.carousel-caption button:hover .button-background {
+  -webkit-animation: button-background-transition 1s;
+          animation: button-background-transition 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.carousel-caption button:hover .button-text {
+  color: white;
+}
+
+@-webkit-keyframes button-background-transition {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes button-background-transition {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.carousel-caption span {
+  color: #f86759;
+}
+
+#fields {
+  background: #292929;
+  color: white;
+  padding-bottom: 50px;
+}
+
+#fields .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#fields h3 {
+  color: white;
+  padding-top: 50px;
+}
+
+#fields hr {
+  background-color: #f86759;
+  height: 1px;
+  width: 20px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#fields .col-md-4 {
+  padding: 20px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#fields .col-md-4 p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+#fields .col-md-4 i {
+  width: 60px;
+  height: 60px;
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+#fields .col-md-4 h4 {
+  margin-top: 15px;
+  font-size: 18px;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+#fields .col-md-4:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+#fields .col-md-4:hover h4 {
+  color: #f86759;
+}
+
+#fields .col-md-4:hover i {
+  border: 1px solid #f86759;
+  border-radius: 50%;
+}
+
+.trusted-lawyer {
+  background-color: #ebeef4;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.trusted-lawyer .row {
+  margin: 0;
+}
+
+.trusted-lawyer h4 {
+  margin-bottom: 15px;
+  color: #18191a;
+}
+
+.trusted-lawyer hr {
+  background-color: #18191a;
+  margin: auto;
+  width: 15px;
+  height: 1px;
+  line-height: 10px;
+  border-bottom: 1px solid #f86759;
+  margin-bottom: 70px;
+}
+
+#card {
+  padding: 50px;
+  color: black;
+}
+
+#card h6 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#card p {
+  font-size: 16px;
+}
+
+#card #secline {
+  color: #f86759;
+  margin-top: 10px;
+}
+
+#card #textarea {
+  margin-top: 30px;
+}
+
+#card img {
+  float: left;
+  margin-top: 30px;
+}
+
+#card #signature {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#card #signature h1 {
+  font-family: 'Parisienne', cursive;
+}
+
+#card #social i {
+  color: #f86759;
+  padding: 5px;
+}
+
+#card #social .fa-facebook:hover {
+  color: #4267B2;
+}
+
+#card #social .fa-linkedin:hover {
+  color: #0072b1;
+}
+
+#card #social .fa-twitter:hover {
+  color: #38A1F3;
+}
+
+#achievement {
+  padding-top: 50px;
+  background-color: #ebeef4;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#achievement h4 {
+  margin-bottom: 15px;
+  color: #18191a;
+}
+
+#achievement hr {
+  background-color: #18191a;
+  margin: auto;
+  width: 15px;
+  height: 1px;
+  line-height: 10px;
+  border-bottom: 1px solid #f86759;
+  margin-bottom: 70px;
+}
+
+#achievement .boxcontain {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#achievement .boxcontain div {
+  width: 250px;
+  padding: 30px 20px;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#achievement .boxcontain div:nth-child(odd) {
+  background-color: white;
+}
+
+#achievement .boxcontain div:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+#achievement .boxcontain div:hover {
+  background-color: #f86759;
+}
+
+#achievement .boxcontain div:hover p, #achievement .boxcontain div:hover i {
+  color: white;
+}
+
+#achievement .boxcontain h2 {
+  padding: 10px;
+}
+
+#achievement .boxcontain p {
+  color: #f86759;
+  font-weight: 700;
+}
+
+#articles {
+  background-color: #ebeef4;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+#articles h4 {
+  margin-bottom: 15px;
+  color: #18191a;
+}
+
+#articles hr {
+  background-color: #18191a;
+  margin: auto;
+  width: 20px;
+  height: 0.6px;
+  line-height: 10px;
+  border-bottom: 1px solid #f86759;
+  margin-bottom: 20px;
+}
+
+#articles .card {
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-top: 15px;
+}
+
+#articles .card hr {
+  position: absolute;
+  left: 20px;
+}
+
+#articles .card h5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#articles .card p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#articles .card a {
+  font-size: 13px;
+  font-weight: 700;
+  color: #6f6f6f;
+}
+
+#articles .card a:hover {
+  color: #f86759;
+}
+
+#articles .card i {
+  color: #f86759;
+  padding: 10px;
+}
+
+#articles .card .post {
+  margin-top: 15px;
+}
+
+#articles .card:hover {
+  position: relative;
+  bottom: 15px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#articles .card:hover h5 {
+  color: #f86759;
+}
+
+.top-navigation {
+  visibility: hidden;
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #f86759;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.top-navigation i {
+  color: #f86759;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #d1d4d9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 150%;
+}
+
+footer i {
+  padding: 5px;
+}
+
+footer #footernetwork i {
+  color: #f86759;
+}
+
+footer #footernetwork .fa-facebook:hover {
+  color: #4267B2;
+}
+
+footer #footernetwork .fa-linkedin:hover {
+  color: #0072b1;
+}
+
+footer #footernetwork .fa-twitter:hover {
+  color: #38A1F3;
+}
+
+footer #footernetwork .fa-google-plus:hover {
+  color: #DD4B39;
+}
+
+footer #footernetwork .fa-instagram:hover {
+  color: #8a3ab9;
+}
+
+footer .fa-map-marker {
+  float: left;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer h4 {
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+footer hr {
+  width: 25px;
+}
+
+footer a {
+  font-size: 14px;
+  -webkit-transition: .7s;
+  transition: .7s;
+  color: #292929;
+}
+
+footer a:hover {
+  color: #f86759;
+}
+
+footer #recent a {
+  color: #f86759;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+  .carousel-caption {
+    bottom: 10vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .carousel-caption {
+    bottom: 0;
+  }
+  .carousel-caption h1 {
+    font-size: 32px;
+  }
+  .carousel-caption h3 {
+    font-size: 24px;
+  }
+  .carousel-caption button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-caption {
+    bottom: 0;
+  }
+  .carousel-caption h1 {
+    font-size: 24px;
+  }
+  .carousel-caption h3 {
+    font-size: 18px;
+  }
+  .carousel-caption button {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

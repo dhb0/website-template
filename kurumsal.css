@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #ebeef4;
+  font-size: 16px;
+}
+
+header a {
+  color: #666666;
+}
+
+header a:hover {
+  color: #f86759;
+}
+
+header .col-md-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0 15px 0;
+}
+
+header .col-md-12 .fa-phone {
+  padding-right: 10px;
+}
+
+header .col-md-12 .fa-paper-plane-o {
+  padding-right: 10px;
+}
+
+header .col-md-12 span {
+  padding: 0 15px;
+}
+
+header .col-md-12 .social-networking i {
+  padding: 5px;
+  color: #f86759;
+}
+
+header .col-md-12 .social-networking .fa-facebook:hover {
+  color: #4267B2;
+}
+
+header .col-md-12 .social-networking .fa-linkedin:hover {
+  color: #0072b1;
+}
+
+header .col-md-12 .social-networking .fa-twitter:hover {
+  color: #38A1F3;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+nav {
+  color: #6f6f6f;
+  font-size: 14px;
+  font-weight: 900;
+  -webkit-box-shadow: 0 1px 1px -1px gray;
+          box-shadow: 0 1px 1px -1px gray;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+nav ul li > a {
+  padding: 0 5px 15px 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav ul li > a:hover {
+  color: #f86759 !important;
+  border-bottom: 1px solid #f86759;
+}
+
+nav #search {
+  margin-left: 10px;
+}
+
+nav #search i {
+  margin-left: 15px;
+}
+
+#kurumsal {
+  background-color: #ebeef4;
+}
+
+#kurumsal .main-cont {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#kurumsal .main-cont #card {
+  text-align: justify;
+  padding: 30px 20px;
+}
+
+#kurumsal .main-cont #card h3 {
+  color: #f86759;
+  font-weight: 700;
+}
+
+#kurumsal .main-cont #card h4 {
+  color: #6f6f6f;
+  font-size: 21px;
+}
+
+#kurumsal .main-cont #card p {
+  font-size: 16px;
+}
+
+footer {
+  background-color: #d1d4d9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 150%;
+}
+
+footer i {
+  padding: 5px;
+}
+
+footer #footernetwork i {
+  color: #f86759;
+}
+
+footer #footernetwork .fa-facebook:hover {
+  color: #4267B2;
+}
+
+footer #footernetwork .fa-linkedin:hover {
+  color: #0072b1;
+}
+
+footer #footernetwork .fa-twitter:hover {
+  color: #38A1F3;
+}
+
+footer #footernetwork .fa-google-plus:hover {
+  color: #DD4B39;
+}
+
+footer #footernetwork .fa-instagram:hover {
+  color: #8a3ab9;
+}
+
+footer .fa-map-marker {
+  float: left;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer h4 {
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+footer hr {
+  width: 25px;
+}
+
+footer a {
+  font-size: 14px;
+  -webkit-transition: .7s;
+  transition: .7s;
+  color: #292929;
+}
+
+footer a:hover {
+  color: #f86759;
+}
+
+footer #recent a {
+  color: #f86759;
+  font-weight: 700;
+}
+/*# sourceMappingURL=kurumsal.css.map */
